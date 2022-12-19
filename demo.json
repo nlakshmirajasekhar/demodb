@@ -1,0 +1,19 @@
+{
+    "customersForm": "<form method=\"POST\" action=\"https://testsecureacceptance.cybersource.com/silent/embedded/pay\" id=\"paymentRequestForm\"><input type=\"hidden\" name=\"auth_trans_ref_no\" value=\"TRX200076089\"/><input type=\"hidden\" name=\"transaction_uuid\" value=\"6f82a056-2894-4f26-aa16-edc4eef52e5a\"/><input type=\"hidden\" name=\"currency\" value=\"SAR\"/><input type=\"hidden\" name=\"locale\" value=\"en\"/><input type=\"hidden\" id=\"ignore_cvn\" name=\"ignore_cvn\" value=\"false\"/><input type=\"hidden\" id=\"ignore_avs\" name=\"ignore_avs\" value=\"true\"/><input type=\"hidden\" name=\"access_key\" value=\"9c6e5705d7db35a68ae566c2ed30b424\"/><input type=\"hidden\" name=\"payment_method\" value=\"card\"/><input type=\"hidden\" name=\"profile_id\" value=\"BD2BC204-8AEF-4151-99A2-FB980B855A02\"/><input type=\"hidden\" name=\"reference_number\" value=\"TRX200076089\"/><input type=\"hidden\" name=\"transaction_type\" value=\"authorization\"/><input type=\"hidden\" name=\"signed_date_time\" value=\"2022-12-19T13:32:56Z\"/><input type=\"hidden\" name=\"amount\" value=\"100.0\"/><input type=\"hidden\" name=\"bill_to_address_line1\" value=\"1295 Charleston Rd\"/><input type=\"hidden\" name=\"bill_to_address_city\" value=\"Mountain View\"/><input type=\"hidden\" name=\"bill_to_email\" value=\"null@cybersource.com\"/><input type=\"hidden\" name=\"bill_to_phone\" value=\"9736548221\"/><input type=\"hidden\" name=\"bill_to_address_state\" value=\"CA\"/><input type=\"hidden\" name=\"bill_to_surname\" value=\"name\"/><input type=\"hidden\" name=\"bill_to_address_country\" value=\"US\"/><input type=\"hidden\" name=\"bill_to_address_postal_code\" value=\"94043\"/><input type=\"hidden\" name=\"bill_to_forename\" value=\"noreal\"/><input type=\"hidden\" name=\"signed_field_names\" value=\"access_key,profile_id,transaction_uuid,signed_field_names,unsigned_field_names,signed_date_time,locale,transaction_type,reference_number,amount,currency,payment_method,ignore_avs,ignore_cvn,auth_trans_ref_no\"/><input type=\"hidden\" name=\"unsigned_field_names\" value=\"card_type,card_number,card_expiry_date,card_cvn,bill_to_forename,bill_to_surname,bill_to_email,bill_to_phone,bill_to_address_line1,bill_to_address_city,bill_to_address_state,bill_to_address_country,bill_to_address_postal_code\"/><input type=\"hidden\" name=\"signature\" value=\"guabaVFs1Wc5PCHTVQDZ2SEqXVfRFCtmg4QsDzr5SmU=\"/><input type=\"hidden\" name=\"card_type\" value=\"001\"/>
+
+<input type=\"hidden\" name=\"card_number\" value=\"{CARDNUMBER}\"/>
+<input type=\"hidden\" name=\"card_expiry_date\" value=\"{DATE}\"/>
+<input type=\"hidden\" name=\"card_cvn\" value=\"{CVV}\"/></form>",
+
+    "transactionReference": "TRX200076089",
+    "paymentIntiatationStatus": {
+        "status": "SUCCESS",
+        "reasonCode": "SUCCESS",
+        "reasonDesc": "Successful transaction",
+        "nativeReasonCode": "SUCCESS",
+        "DisplayLabel": {
+            "label": "Transaction Complete",
+            "language": "ENGLISH"
+        }
+    }
+}
